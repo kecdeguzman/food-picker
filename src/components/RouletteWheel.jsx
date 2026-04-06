@@ -59,7 +59,7 @@ export default function RouletteWheel({ items }) {
           </svg>
         </div>
 
-        <div className="relative w-64 h-64 sm:w-72 sm:h-72 rounded-full overflow-hidden border-8 border-white dark:border-slate-800 shadow-2xl">
+        <div className="relative w-80 h-80 sm:w-[380px] sm:h-[380px] rounded-full overflow-hidden border-[10px] border-white dark:border-slate-800 shadow-2xl">
           <motion.div
             ref={wheelRef}
             className="w-full h-full relative"
@@ -74,12 +74,12 @@ export default function RouletteWheel({ items }) {
               return (
                 <div
                   key={i}
-                  className="absolute w-1/2 h-[2px] top-1/2 left-1/2 origin-left flex items-center justify-start pl-8 sm:pl-10 z-10"
+                  className="absolute w-1/2 h-[2px] top-1/2 left-1/2 origin-left flex items-center justify-start pl-12 sm:pl-16 z-10"
                   style={{
                     transform: `translateY(-50%) rotate(${textAngle - 90}deg)`,
                   }}
                 >
-                  <span className="text-white font-bold text-xs sm:text-sm drop-shadow-md whitespace-nowrap">
+                  <span className="text-white font-bold text-sm sm:text-base drop-shadow-[0_2px_2px_rgba(0,0,0,0.8)] whitespace-nowrap">
                     {item}
                   </span>
                 </div>
@@ -98,8 +98,8 @@ export default function RouletteWheel({ items }) {
             />
           </motion.div>
           
-          <div className="absolute inset-0 m-auto w-12 h-12 sm:w-16 sm:h-16 bg-white dark:bg-slate-800 rounded-full shadow-inner z-20 flex items-center justify-center">
-            <div className="w-4 h-4 sm:w-6 sm:h-6 bg-slate-200 dark:bg-slate-700 rounded-full"></div>
+          <div className="absolute inset-0 m-auto w-16 h-16 sm:w-20 sm:h-20 bg-white dark:bg-slate-800 rounded-full shadow-inner z-20 flex items-center justify-center">
+            <div className="w-6 h-6 sm:w-8 sm:h-8 bg-slate-200 dark:bg-slate-700 rounded-full"></div>
           </div>
         </div>
       </div>

@@ -84,7 +84,7 @@ function App() {
               <Utensils size={20} />
             </div>
             <h1 className="text-xl font-black text-slate-800 dark:text-white tracking-tight">
-              Viand<span className="text-brand-500">Picker</span>
+              Ulam<span className="text-brand-500">Picker</span>
             </h1>
           </div>
         </div>
@@ -263,7 +263,7 @@ function App() {
                 <span>Back to List</span>
               </button>
 
-              <div className="bg-white/50 dark:bg-slate-900/50 backdrop-blur-xl border border-slate-200 dark:border-slate-800 rounded-[3rem] p-6 md:p-12 shadow-2xl w-full max-w-md overflow-hidden">
+              <div className="bg-white/50 dark:bg-slate-900/50 backdrop-blur-xl border border-slate-200 dark:border-slate-800 rounded-[3rem] p-6 md:p-12 shadow-2xl w-full max-w-lg overflow-hidden">
                   <RouletteWheel items={displayedItems} />
               </div>
             </motion.div>
