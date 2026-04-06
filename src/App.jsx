@@ -8,22 +8,22 @@ const MASTER_MEAL_DATA = {
     id: 'breakfast',
     title: 'Breakfast',
     icon: Coffee,
-    standardItems: ['Silog', 'Pandesal & Coffee', 'Oatmeal', 'Pancit Canton', 'Fruit Bowl', 'Champorado', 'Bacon & Eggs Skillet', 'Belgian Waffles', 'Sopas', 'Arroz Caldo', 'Taho', 'Lugaw', 'Tortang Talong', 'Hotdog & Rice'],
-    fastFoodItems: ['Jollibee Breakfast Yum', 'McDo Hashbrown', 'Burger King Croissanwich', 'Chowking Fried Rice', 'Jollibee Longganisa', 'McDo Hotcakes', 'KFC Breakfast Bowl']
+    standardItems: ['Tapsilog', 'Tocilog', 'Pandesal & Coffee', 'Oatmeal', 'Pancit Canton', 'Fruit Bowl', 'Champorado', 'Bacon & Eggs Skillet', 'Belgian Waffles', 'Sopas', 'Arroz Caldo', 'Taho', 'Lugaw with Egg', 'Tortang Talong', 'Hotdog & Rice', 'Danggit', 'Sardinas', 'Tinapang Bangus', 'Spanish Bread', 'Ensaymada', 'Cereal', 'Instant Noodles with Egg'],
+    fastFoodItems: ['Jollibee Breakfast Yum', 'McDo Hashbrown', 'Burger King Croissanwich', 'Chowking Fried Rice', 'Jollibee Longganisa', 'McDo Hotcakes', 'KFC Breakfast Bowl', 'Dunkin Donuts Combo', '7-Eleven Siopao', 'Wendy\'s Breakfast']
   },
   lunch: {
     id: 'lunch',
     title: 'Lunch',
     icon: Sun,
-    standardItems: ['Chicken Adobo', 'Pork Sinigang', 'Salad', 'Pasta', 'Fried Chicken', 'Baby Back Ribs', 'Katsu Curry', 'Shawarma Rice', 'Lechon Kawali', 'Bistek Tagalog', 'Kare-Kare', 'Monggo', 'Sisig', 'Pininyahang Manok', 'Samgyupsal', 'Inihaw na Bangus'],
-    fastFoodItems: ['Jollibee Chickenjoy', 'McDo BigMac Meal', 'KFC Zinger Combo', 'Mang Inasal PM1', 'Chowking Chao Fan', 'Burger King Whopper', 'Tokyo Tokyo Bento']
+    standardItems: ['Chicken Adobo', 'Pork Sinigang', 'Pastil', 'Chicken Proben', 'Bulcachong', 'Salad', 'Pasta', 'Fried Chicken', 'Baby Back Ribs', 'Katsu Curry', 'Shawarma Rice', 'Lechon Kawali', 'Bistek Tagalog', 'Kare-Kare', 'Monggo', 'Sisig', 'Pininyahang Manok', 'Samgyupsal', 'Inihaw na Bangus', 'Bicol Express', 'Dinuguan', 'Laing', 'Chopsuey', 'Pork BBQ on Stick', 'Chicken Curry', 'Tuna Panga'],
+    fastFoodItems: ['Jollibee Chickenjoy', 'McDo BigMac Meal', 'KFC Zinger Combo', 'Mang Inasal PM1', 'Chowking Chao Fan', 'Burger King Whopper', 'Tokyo Tokyo Bento', 'Army Navy Burger', 'Jollibee Burger Steak', 'Greenwich Pizza', 'S&R Slice Pizza']
   },
   dinner: {
     id: 'dinner',
     title: 'Dinner',
     icon: Moon,
-    standardItems: ['Steak', 'Grilled Fish', 'Pizza', 'Soup & Bread', 'Stir-fry Noodles', 'Pork Belly BBQ', 'Shrimp Boil', 'Ramen', 'Tinola', 'Nilagang Baka', 'Crispy Pata', 'Chicken Fillet', 'Burger & Fries', 'Bacolod Inasal'],
-    fastFoodItems: ['Jollibee Spicy Chicken', 'McDo Quarter Pounder', 'KFC Famous Bowl', 'Chowking Lauriat', 'BonChon Chicken', 'Yellow Cab Pizza', 'Panda Express']
+    standardItems: ['Steak', 'Grilled Fish', 'Pizza', 'Soup & Bread', 'Stir-fry Noodles', 'Pork Belly BBQ', 'Shrimp Boil', 'Ramen', 'Tinola', 'Nilagang Baka', 'Crispy Pata', 'Chicken Fillet', 'Burger & Fries', 'Bacolod Inasal', 'Beef Pares', 'Lumpia Shanghai', 'Buttered Shrimp', 'Sweet and Sour Fish', 'Chicken Wings', 'Pork Menudo', 'Beef Caldereta', 'Pancit Bihon', 'Kinilaw na Malasugi'],
+    fastFoodItems: ['Jollibee Spicy Chicken', 'McDo Quarter Pounder', 'KFC Famous Bowl', 'Chowking Lauriat', 'BonChon Chicken', 'Yellow Cab Pizza', 'Panda Express', 'Jollibee Super Meal', 'McDo BFF Burger', 'Pizza Hut Pan', 'Potato Corner Mega']
   }
 };
 
